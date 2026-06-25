@@ -3,9 +3,9 @@ import { Toaster } from "@/components/ui/sonner";
 
 function App() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-cover bg-center bg-no-repeat" style={{ backgroundImage: 'url(https://storage.googleapis.com/dala-prod-public-storage/generated-images/6ab2f151-92be-4999-ac91-141943e1df6f/background-00bf44f9-1782417773536.webp)' }}>
-      <div className="absolute inset-0 bg-white/30 backdrop-blur-[2px]" />
-      <div className="relative z-10 w-full">
+    <div className="min-h-screen flex items-center justify-center bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-slate-900 via-indigo-950 to-black p-4 overflow-x-hidden">
+      <div className="fixed inset-0 bg-[url('https://www.transparenttextures.com/patterns/stardust.png')] opacity-20 pointer-events-none" />
+      <div className="relative z-10 w-full flex justify-center">
         <TicTacToe />
       </div>
       <Toaster position="top-center" />
